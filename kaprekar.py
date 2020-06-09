@@ -1,15 +1,13 @@
 # 23.10.2019
 #
-# Recreational mathematics: The Kaprekar constant
+# Recreational mathematics: The Kaprekar constant 6174
 #
-# The Kaprekar constant is 6174.
-# Any 4-digit number ends up in the Kaprekar number 
-# if the Kaprekar operation is done to it: 
-# 1) Form the biggest and the smalles number one can form 
+# Any 4-digit number ends up in the Kaprekar constant 
+# if the Kaprekar operation is recursively done to it: 
+# Form the biggest and the smallest number one can form 
 # with the four digits, and subtract them. 
-# 2) Do this iteratively, and you will end up at the Kaprekar number
 #
-# The number of steps (nsteps) required to reach the Kaprekar number 
+# The number of steps (nsteps) required to reach the Kaprekar constant 
 # follows a curious pattern. This script generates a plot 
 # showing nsteps for any number N=XY, as a function of X and Y.
 
